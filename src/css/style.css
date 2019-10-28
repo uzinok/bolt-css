@@ -1,0 +1,424 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: transparent url('../img/body-bg.gif') repeat scroll 0% 0%;
+}
+
+body * {
+  font-family: Arial;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 27px;
+  line-height: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  color: rgb(186, 0, 9);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+a.button24 {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5em 2em;
+  margin: 5px 0px;
+  outline: medium none;
+  border-width: 2px 0px;
+  border-style: solid none;
+  border-color: rgb(253, 80, 51) rgb(0, 0, 0) rgb(215, 36, 6);
+  border-radius: 36px;
+  background: rgb(214, 68, 34);
+  background: rgb(214, 68, 34) linear-gradient(rgb(243, 15, 15), rgb(214, 68, 34)) repeat scroll 0% 0%;
+  font-size: 19px;
+  text-indent: 0px;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+a.button24:hover {
+  background: rgb(245, 29, 0);
+  background: rgb(245, 29, 0) linear-gradient(rgb(245, 29, 0), rgb(245, 0, 0)) repeat scroll 0% 0%;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+a.button24:active {
+  background: rgb(245, 29, 0);
+  background: rgb(245, 29, 0) linear-gradient(rgb(245, 29, 0), rgb(245, 0, 0)) repeat scroll 0% 0%;
+}
+
+.wrap {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.content {
+  width: 730px;
+  background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.content .quote {
+  border: 2px solid rgb(255, 0, 0);
+  padding: 10px 10px 10px 60px;
+  background: rgb(255, 85, 85);
+  color: rgb(255, 255, 255);
+}
+
+.breadcrumbs {
+  background: rgb(186, 0, 9) none repeat scroll 0% 0%;
+  padding: 2px 2px 2px 15px;
+  width: 140px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 15px;
+  margin-bottom: 25px;
+}
+
+.breadcrumbs a {
+  color: rgb(255, 255, 255);
+}
+
+.breadcrumbs a:hover {
+  text-decoration: none;
+}
+
+.topic {
+  height: 38px;
+  width: 480px;
+  background: transparent url('../img/bg_blogs.png') no-repeat scroll 0% 0%;
+  border: 1px solid rgb(204, 204, 204);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  left: -10px;
+  margin: 10px 0px;
+}
+
+.topic span {
+  float: left;
+  display: block;
+}
+
+.topic .title {
+  width: 60px;
+  text-align: center;
+  font-size: 21px;
+  color: rgb(186, 0, 9);
+  position: relative;
+  top: 8px;
+}
+
+.topic .text {
+  width: 404px;
+  font-size: 11px;
+  position: relative;
+  top: 8px;
+  padding-right: 15px;
+}
+
+.post {
+  display: inline-block;
+  width: 700px;
+  padding: 15px;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.post .info {
+  color: rgb(153, 153, 153);
+  font-size: 11px;
+  font-style: italic;
+}
+
+.post a {
+  font-size: 19px;
+}
+
+.docInText {
+  float: left;
+  width: 40%;
+  max-width: 156px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.mobImage {
+  display: none;
+}
+
+.rightRow {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 265px;
+  font-size: 13px;
+}
+
+.rightRow .item {
+  background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+  margin-bottom: 4px;
+}
+
+.rightRow .item img {
+  display: block;
+}
+
+.rightRow .inner {
+  padding: 10px;
+}
+
+.comments {
+  width: 100%;
+  background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+  margin-top: 5px;
+}
+
+.comment {
+  margin: 0px 15px;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.comment:last-child {
+  border: medium none;
+}
+
+.comment .avatar {
+  float: left;
+  width: 35px;
+  height: 35px;
+}
+
+.comment .text {
+  margin-left: 45px;
+  font-size: 13px;
+}
+
+.comment .text .login {
+  color: rgb(186, 0, 9);
+  font-weight: bold;
+}
+
+.comment .text .date {
+  color: rgb(153, 153, 153);
+  font-size: 11px;
+  font-style: italic;
+}
+
+.comment .text .data {
+  display: block;
+  margin-top: 2px;
+  width: 70%;
+}
+
+.footer {
+  background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+  margin-top: 5px;
+  padding: 15px;
+  /* height: 50px;*/
+  font-size: 11px;
+}
+
+.header .menu ul .burg {
+  display: none;
+}
+
+.header .menu ul .burg img {
+  max-width: 30px;
+}
+
+@media screen and (max-width: 1040px) {
+
+  .rightRow {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .content .post {
+    width: 96%;
+    margin: 0px auto;
+    padding: 2%;
+  }
+
+  .header img {
+    width: 100%;
+  }
+
+  .comment .text .data {
+    display: block;
+    margin-top: 2px;
+    width: 90%;
+  }
+
+  .mobImage {
+    display: block;
+  }
+}
+
+.socBtns {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 550px) {
+
+  .topic {
+    display: none;
+  }
+
+}
+
+
+
+.header {
+  background: #000;
+}
+
+.header .logo {
+  float: left;
+  padding-top: 20px;
+}
+
+.header .subscribe {
+  float: right;
+}
+
+.header .subscribe ul li {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0 10px;
+  list-style-type: none;
+}
+
+.header .subscribe ul li a {
+  color: #dddddd;
+  text-decoration: none;
+}
+
+.header .subscribe ul li:first-child {
+  border-right: 1px solid #ddd;
+}
+
+.header .menu {
+  float: left;
+  height: 30px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.header .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0 10px 0px;
+  display: block;
+}
+
+.header .menu ul li {
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0px 15px;
+  border-right: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.header .menu ul li:hover,
+.header .menu ul li.active {
+  color: #FF5555;
+}
+
+.header .soc {
+  float: right;
+}
+
+.photo {
+  margin-top: 5px;
+  background: #fff;
+}
+
+.main {
+  background: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+a img {
+  border: none;
+}
+
+@media only screen and (max-width: 1023px) {
+  .topic {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .header .soc {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 817px) {
+  .header .menu ul li:not(.burg) {
+    display: none;
+  }
+
+  .header .menu ul .burg {
+    display: block;
+  }
+
+  .header .menu {
+    height: 40px;
+  }
+
+  .header .menu ul li {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header .subscribe {
+    display: none;
+  }
+
+  .ww {
+    display: none;
+  }
+}
+
+.prod {
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+}
